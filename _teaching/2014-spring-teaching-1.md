@@ -1,20 +1,18 @@
 ---
-title: "Teaching experience 1"
+title: "Course Development TA"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Introduction to Neuroscience BIONB2220"
+#permalink: /teaching/2014-spring-teaching-1
+venue: "Cornell University"
+date: Spring 2024
+location: "Ithaca, NY"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
+I developed modules to teach basics of AI and ML to undergraduate students without needing any coding experience
 ======
 
-Heading 2
+I lead weekly discussion sections consisting of 30 students
 ======
 
-Heading 3
+I developed a website for students to find the discussion resources after they have graduated.
 ======
