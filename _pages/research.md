@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Research"
-permalink: /research/
+permalink: namanagrawal97.github.io/research/
 author_profile: true
 ---
 
