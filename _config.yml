@@ -203,7 +203,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: False
     permalink: /:collection/:path/
   portfolio:
     output: true
@@ -239,9 +239,9 @@ defaults:
       type: teaching
     values:
       layout: single
-      author_profile: true
-      share: true
-      comments: true
+      author_profile: False
+      share: False
+      comments: False
   # _publications
   - scope:
       path: ""
