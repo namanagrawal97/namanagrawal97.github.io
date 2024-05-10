@@ -4,7 +4,7 @@ collection: teaching
 type: Introduction to Neuroscience BIONB2220
 permalink: /teaching/2014-spring-teaching-1
 venue: "Cornell University"
-date: Spring 2024
+date: 2024-05-05
 location: "Ithaca, NY"
 ---
 
