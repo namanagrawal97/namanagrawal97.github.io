@@ -8,11 +8,9 @@ date: 2024-05-05
 location: "Ithaca, NY"
 ---
 
-I developed modules to teach basics of AI and ML to undergraduate students without needing any coding experience
 ======
+- I developed modules to teach basics of AI and ML to undergraduate students without needing any coding experience
 
-I lead weekly discussion sections consisting of 30 students
-======
+- I lead weekly discussion sections consisting of 30 students
 
-I developed a website for students to find the discussion resources after they have graduated.
-======
+- I developed a website for students to find the discussion resources after they have graduated.
