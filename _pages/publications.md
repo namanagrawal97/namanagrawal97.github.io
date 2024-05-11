@@ -5,12 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## From Mammals to Insects: Exploring the Genetic and Neural Basis of Eating Behavior (review)
+Deepthi Mahishi, **Naman Agrawal**, Wenshuai Jiang, Nilay Yapici, Annual Review of Genetics, 2024 *(in revision)*
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+## HisCl1 regulates gustatory habituation in sweet taste neurons and mediates sugar ingestion in Drosophila
+Haein Kim, Ziqing Zhong, Xinyue Cui, Hayeon Sung, **Naman Agrawal**, Tianxing Jiang, Monica Dus, Nilay Yapici, [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.05.06.592591v1), 2023
