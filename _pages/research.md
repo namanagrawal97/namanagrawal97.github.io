@@ -17,7 +17,7 @@ I conducted a large screening of the SEZ neurons to understand which neuron inte
 
 I worked on activation of descending neurons in *Drosophila* VNC to test which neurons control turning maneuver during flight. I found that unilateral activation of AX neurons with P<sub>2</sub>X<sub>2</sub> led to suddern ipsilateral turns mid-flight.
 
-You can find a pdf of my MS thesis [here](http://academicpages.github.io/files/Final_Thesis.pdf)
+You can find a pdf of my MS thesis [here](http://namanagrawal97.github.io/files/Final_Thesis.pdf)
 
 ## Summer Internship
 [Brembs Lab](https://lab.brembs.net)| University of Regensburg | Summer 2018
