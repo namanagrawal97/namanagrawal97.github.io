@@ -6,11 +6,8 @@ author_profile: true
 ---
 
 ## PhD Thesis
-[Yapici Lab](https://yapicilab.com/index.html) | Cornell University | 2021-
-
-I worked on characterizing "Local Search" Behavior in Drosophila. I used simple foraging arena with an overhead camera to observe a fly's behavior as it foraged for food. I then constructed ML models to predict which state the fly is in depending on its kinematic parameters. I observed that the extent of Local Search behavior was dependent both on the Food Quality and Hunger levels of the fly.
-
-I conducted a large screening of the SEZ neurons to understand which neuron integrated information about the food quality and hunger levels to send information to motor neurons which resulted in Local Search Behavior.
+[Linster Lab](https://cplab.net/) | Cornell University | 2021-
+I work on analyzing neural signals recorded from rats as they solve tasks related to olfaction and memory.
 
 ## MS Thesis
 [Schnell Lab](https://mpinb.mpg.de/en/research-groups/groups/neurobiology-of-flight-control/research-focus.html) | MPINB Bonn | 2019-2020
