@@ -4,6 +4,17 @@ title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
+## Head TA - Introduction to Behavior 
+Spring '25, Cornell University | Ithaca, NY
+
+* I led a team of graduate TAs and made lesson plans for leading discussion sections.
+
+* I reviewed and graded exams.
+
+## Instructor - History of Neuroscience FWS 
+Fall '24, Cornell University | Ithaca, NY
+
+* I developed an entire 3-credit course and syllabus from scratch.
 
 ## Course Development TA - Introduction to Neuroscience 
 Spring '24, Cornell University | Ithaca, NY
