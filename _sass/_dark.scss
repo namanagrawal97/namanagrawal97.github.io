@@ -1,0 +1,183 @@
+/* ==========================================================================
+   DARK MODE
+   Applied automatically when the visitor's OS/browser prefers a dark scheme.
+   ========================================================================== */
+
+$dark-bg            : #1e2124;
+$dark-bg-raised     : #282c30;
+$dark-text          : #d4d7da;
+$dark-text-muted    : #9aa1a7;
+$dark-heading       : #eceef0;
+$dark-border        : #3a3f44;
+$dark-link          : #6fc3dc;
+$dark-link-hover    : #a3dcec;
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+
+  html,
+  body {
+    background-color: $dark-bg;
+  }
+
+  body {
+    color: $dark-text;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $dark-heading;
+  }
+
+  a {
+    color: $dark-link;
+
+    &:hover {
+      color: $dark-link-hover;
+    }
+  }
+
+  hr,
+  .page__content h2,
+  .archive__subtitle {
+    border-color: $dark-border;
+  }
+
+  /* masthead + top navigation */
+  .masthead,
+  .greedy-nav {
+    background: $dark-bg;
+    border-color: $dark-border;
+  }
+
+  .greedy-nav a {
+    color: $dark-text-muted;
+
+    &:hover {
+      color: $dark-heading;
+    }
+  }
+
+  .greedy-nav .hidden-links {
+    background: $dark-bg-raised;
+    border-color: $dark-border;
+
+    &:after {
+      border-color: $dark-bg-raised transparent;
+    }
+
+    li {
+      border-color: $dark-border;
+    }
+
+    a:hover {
+      color: $dark-heading;
+      background: $dark-bg;
+    }
+  }
+
+  /* sidebar / author profile */
+  .author__urls {
+    background: $dark-bg-raised;
+    border-color: $dark-border;
+
+    &:after {
+      border-color: $dark-bg-raised transparent;
+    }
+  }
+
+  .author__avatar img {
+    border-color: $dark-border;
+  }
+
+  /* muted text */
+  .page__meta,
+  .archive__item-excerpt,
+  .page__footer,
+  .page__footer .fal,
+  figcaption {
+    color: $dark-text-muted;
+  }
+
+  /* footer */
+  .page__footer {
+    background-color: $dark-bg-raised;
+    border-top-color: $dark-border;
+  }
+
+  /* blockquotes (student comments) */
+  blockquote {
+    color: $dark-text;
+    border-left-color: $dark-text-muted;
+  }
+
+  /* tables (evaluation scores) */
+  table,
+  th,
+  td {
+    border-color: $dark-border;
+  }
+
+  thead {
+    background-color: $dark-bg-raised;
+    border-bottom-color: $dark-border;
+  }
+
+  /* code */
+  code,
+  pre,
+  div.highlighter-rouge,
+  figure.highlight {
+    background: $dark-bg-raised;
+    border-color: $dark-border;
+    color: $dark-text;
+  }
+
+  /* table of contents */
+  .toc {
+    background-color: $dark-bg-raised;
+    border-color: $dark-border;
+    color: $dark-text-muted;
+
+    a {
+      color: $dark-text-muted;
+      border-color: $dark-border;
+
+      &:hover {
+        color: $dark-heading;
+        background: $dark-bg;
+      }
+    }
+  }
+
+  /* pagination + misc bordered elements */
+  .pagination a,
+  .page__taxonomy-item {
+    color: $dark-text-muted;
+    border-color: $dark-border;
+  }
+
+  .page__share,
+  .page__related,
+  .page__comments,
+  .feature__wrapper {
+    border-color: $dark-border;
+  }
+
+  /* forms */
+  input,
+  select,
+  textarea {
+    color: $dark-text;
+    background-color: $dark-bg-raised;
+    border-color: $dark-border;
+  }
+
+  /* inverse buttons */
+  .btn--inverse {
+    background-color: $dark-bg-raised;
+    border-color: $dark-border !important;
+    color: $dark-text !important;
+  }
+}
