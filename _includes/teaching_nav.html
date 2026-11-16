@@ -1,0 +1,22 @@
+{% include base_path %}
+{% assign teaching_pages = site.teaching | sort: "order" %}
+<nav class="teaching-nav" aria-label="Teaching pages">
+  <h2 class="teaching-nav__title">Explore my teaching</h2>
+  <ul>
+    {% for t in teaching_pages %}
+      <li>
+        {% if t.url == page.url %}
+          <span class="teaching-nav__item is-current" aria-current="page">
+            <span class="teaching-nav__name">{{ t.title }}</span>
+            <span class="teaching-nav__desc">You are here</span>
+          </span>
+        {% else %}
+          <a class="teaching-nav__item" href="{{ base_path }}{{ t.url }}">
+            <span class="teaching-nav__name">{{ t.title }}</span>
+            {% if t.excerpt %}<span class="teaching-nav__desc">{{ t.excerpt | markdownify | strip_html | strip_newlines }}</span>{% endif %}
+          </a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

@@ -165,6 +165,33 @@ $dark-link-hover    : #a3dcec;
     border-color: $dark-border;
   }
 
+  /* teaching subpage nav */
+  .teaching-nav {
+    border-color: $dark-border;
+
+    .teaching-nav__item {
+      color: $dark-text;
+      border-color: $dark-border;
+    }
+
+    a.teaching-nav__item:hover {
+      border-color: $dark-link;
+    }
+
+    .teaching-nav__name {
+      color: $dark-link;
+    }
+
+    .teaching-nav__desc {
+      color: $dark-text-muted;
+    }
+
+    .is-current {
+      background: $dark-bg-raised;
+      .teaching-nav__name { color: $dark-heading; }
+    }
+  }
+
   /* forms */
   input,
   select,
