@@ -49,25 +49,22 @@
 }
 
 .landing__photo {
-  flex: 2 1 220px;
-  min-width: 0;
-  aspect-ratio: 4 / 3;
-  border-radius: 8px;
-  object-fit: cover;
-}
+  flex: 1 1 100%;
+  margin: 0;
 
-.landing__photo--placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1.5em;
-  box-sizing: border-box;
-  border: 1px dashed var(--l-muted);
-  background: var(--l-soft);
-  font-family: $sans-serif;
-  font-size: 0.85em;
-  text-align: center;
-  color: var(--l-muted);
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  figcaption {
+    margin-top: 0.5em;
+    font-family: $sans-serif;
+    font-size: 0.8em;
+    color: var(--l-muted);
+  }
 }
 
 .landing__eyebrow {
