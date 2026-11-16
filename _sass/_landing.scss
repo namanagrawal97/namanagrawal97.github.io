@@ -126,7 +126,13 @@
   &:hover { opacity: 0.9; color: var(--l-on-accent); }
 }
 
-/* Award */
+/* Awards */
+.landing__awards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
 .landing__award {
   display: flex;
   flex-wrap: wrap;
