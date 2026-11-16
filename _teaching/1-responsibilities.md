@@ -9,7 +9,7 @@ author_profile: true
 
 ## Instructor - Big Brain Moments : A Logical History of Neuroscience {#big-brain-moments}
 ### First year writing seminar on a socio-political history of neuroscience(n= 15, 18, 18) 
-Spring'24, Spring'25, Fall'26 - Cornell University | Ithaca, NY
+Spring 2025, Spring 2026, Fall 2026 - Cornell University | Ithaca, NY
 
 * I developed an entire 3-credit course and syllabus from scratch. The course follows the history of neuroscience from ancient egypt to modern neural networks. It showcases the major models of the brains and the arguments made for them. Through this process, the course aims to teach basic argumentative theory and jargon-free authentic writing.
 
