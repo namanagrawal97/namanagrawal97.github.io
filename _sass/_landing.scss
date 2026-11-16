@@ -10,7 +10,6 @@
   --l-border: #e3e6e8;
   --l-soft: #f5f7f8;
   --l-on-accent: #ffffff;
-  --l-serif: "Source Serif 4", Georgia, serif;
 
   display: flex;
   flex-direction: column;
@@ -79,7 +78,6 @@
 
 .landing__headline {
   margin: 0 0 0.5em;
-  font-family: var(--l-serif);
   font-weight: 600;
   font-size: 1.9em;
   line-height: 1.2;
@@ -160,7 +158,6 @@
   margin: 0 0 0.8em;
   padding: 0;
   border: 0;
-  font-family: var(--l-serif);
   font-weight: 600;
   font-size: 1.45em;
 }
