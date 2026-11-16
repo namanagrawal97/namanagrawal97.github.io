@@ -176,36 +176,6 @@
   a { font-size: 0.85em; font-weight: 600; }
 }
 
-/* Stats */
-.landing__stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 1em;
-}
-
-.landing__stat {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4em;
-  padding: 1.1em;
-  border: 1px solid var(--l-border);
-  border-radius: 8px;
-  font-family: $sans-serif;
-  font-size: 0.85em;
-  line-height: 1.4;
-  color: var(--l-muted);
-}
-
-.landing__num {
-  font-family: var(--l-serif);
-  font-size: 2.2em;
-  font-weight: 600;
-  line-height: 1.1;
-  color: var(--l-accent);
-
-  small { font-size: 0.5em; color: var(--l-muted); }
-}
-
 /* Habits */
 .landing__habits {
   display: grid;
@@ -238,31 +208,6 @@
   }
 }
 
-/* Quote */
-.landing__quote {
-  margin: 0;
-  padding: 1.5em 1.75em;
-  border-radius: 8px;
-  background: var(--l-soft);
-
-  blockquote {
-    margin: 0 0 0.75em;
-    padding: 0;
-    border: 0;
-    font-family: var(--l-serif);
-    font-style: normal;
-    font-size: 1.2em;
-    line-height: 1.5;
-    color: var(--l-heading);
-  }
-
-  figcaption {
-    font-family: $sans-serif;
-    font-size: 0.8em;
-    color: var(--l-muted);
-  }
-}
-
 /* Courses */
 .landing .landing__courses {
   margin: 0;
@@ -272,15 +217,23 @@
   font-family: $sans-serif;
 
   li {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.25em 1.5em;
     margin: 0;
-    padding: 0.9em 0;
     border-bottom: 1px solid var(--l-border);
   }
 
-  li > span:last-child {
+  .landing__course {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em 1.5em;
+    padding: 0.9em 0.5em;
+    color: var(--l-text);
+    text-decoration: none;
+
+    &:hover { background: var(--l-soft); }
+    &:hover strong { color: var(--l-accent); }
+  }
+
+  .landing__course > span:last-child {
     flex: 1 1 260px;
     display: flex;
     flex-direction: column;

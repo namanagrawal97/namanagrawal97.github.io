@@ -7,13 +7,13 @@ excerpt: "Courses I have taught and designed, and my role in each."
 author_profile: true
 ---
 
-## Instructor - Big Brain Moments : A Logical History of Neuroscience
+## Instructor - Big Brain Moments : A Logical History of Neuroscience {#big-brain-moments}
 ### First year writing seminar on a socio-political history of neuroscience(n= 15, 18, 18) 
 Spring'24, Spring'25, Fall'26 - Cornell University | Ithaca, NY
 
 * I developed an entire 3-credit course and syllabus from scratch. The course follows the history of neuroscience from ancient egypt to modern neural networks. It showcases the major models of the brains and the arguments made for them. Through this process, the course aims to teach basic argumentative theory and jargon-free authentic writing.
 
-## Head TA - Introduction to Behavior 
+## Head TA - Introduction to Behavior {#intro-behavior}
 Fall '24, Fall'25 Cornell University | Ithaca, NY
 
 * I led a team of graduate TAs and made lesson plans for leading discussion sections.
@@ -22,7 +22,7 @@ Fall '24, Fall'25 Cornell University | Ithaca, NY
 * I administered Active Learning activities in the large introductory classroom.
 * I reviewed and graded exams.
 
-## Teaching Assistant - Introduction to Neuroscience
+## Teaching Assistant - Introduction to Neuroscience {#intro-neuroscience}
 Spring '23, Spring'24, Cornell University | Ithaca, NY
 
 * I developed modules to teach the basic of AI to undergrad students without any coding experience [find here](https://github.com/namanagrawal97/bionb2220/blob/main/Untitled2.ipynb)
